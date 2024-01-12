@@ -13,8 +13,9 @@ The Carvana dataset is characterized by its specificity, presenting a unique cha
 
 **Challenge**
 
-The Dice scores calculated on the Carvana test dataset for the primary model (Non-pretrained U-Net) and the secondary model (U-Net with a pretrained VGG16 encoder) showcase impressive segmentation performance. Specifically, the primary model achieves a Dice score of 99.74, while the second model achieves a slightly higher score of 99.75.
-The project's core challenge revolves around assessing the model's ability to generalize effectively, especially when confronted with diverse real-world scenarios that may differ significantly from the specific conditions present in the Carvana test dataset. 
+The Dice scores calculated on the Carvana test dataset for the first model (Non-pretrained U-Net) and the secondary model (U-Net with a pretrained VGG16 encoder) showcase impressive segmentation performance. Specifically, the primary model achieves a Dice score of 99.74, while the second model achieves a slightly higher score of 99.75.
+
+Beyond the specific conditions of the Carvana dataset, the central challenge of this project lies in scrutinizing the models' capacity for generalization across a spectrum of real-world scenarios. To tackle this challenge, the project broadens its evaluation criteria by incorporating real examples randomly sourced from the internet. The comparison between the two models becomes pivotal in pinpointing the specific juncture where the second model, enriched with a pretrained VGG16 encoder, has been specifically developed to enhance generalization capabilities.
 
 **User Interface**
 To evaluate and validate our artificial model, we created an user interface using the Python library Streamlit, designed for local development and prototyping of the project.
