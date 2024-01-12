@@ -1,6 +1,6 @@
 # Car-Segmentor-using-transfer-learning
 
-**Description:**
+**Description**
 
 The "Car Segmentor using Transfer Learning" project leverages advanced computer vision techniques to tackle the challenge of accurately segmenting cars within images. At the heart of this endeavor is the application of transfer learning, a powerful methodology that enhances model performance by leveraging knowledge from a pre-trained model.
 
@@ -15,5 +15,5 @@ The Carvana dataset is characterized by its specificity, presenting a unique cha
 
 The project's core challenge revolves around assessing the model's ability to generalize effectively, especially when confronted with diverse real-world scenarios that may differ significantly from the specific conditions present in the Carvana test dataset. 
 
-# User Interface
+**User Interface**
  To evaluate and validate our artificial model, we created an user interface using the Python library Streamlit, designed for local development and prototyping of the project.
