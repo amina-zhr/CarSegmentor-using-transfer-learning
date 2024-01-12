@@ -1,4 +1,4 @@
-# Car-Segmentor-using-transfer-learning
+# CarSegmentor-using-transfer-learning
 
 **Description**
 
@@ -18,4 +18,5 @@ The Dice scores calculated on the Carvana test dataset for the first model (Non-
 Beyond the specific conditions of the Carvana dataset, the central challenge of this project lies in scrutinizing the models' capacity for generalization across a spectrum of real-world scenarios. To tackle this challenge, the project broadens its evaluation criteria by incorporating real examples randomly sourced from the internet. The comparison between the two models becomes pivotal in pinpointing the specific juncture where the second model, enriched with a pretrained VGG16 encoder, has been specifically developed to enhance generalization capabilities.
 
 **User Interface**
+
 To evaluate and validate our artificial model, we created an user interface using the Python library Streamlit, designed for local development and prototyping of the project.
