@@ -6,14 +6,14 @@ The "Car Segmentor using Transfer Learning" project leverages advanced computer 
 
 The project utilizes VGG16, a state-of-the-art pre-trained convolutional neural network (CNN), as the encoder for a UNet architecture. The incorporation of VGG16 as the encoder enhances the model's ability to generalize and extract meaningful features from images. This is particularly crucial when working with a dataset that is highly specific, presenting a unique challenge for the model's adaptability.
 
-In essence, the UNet architecture, enhanced by the transfer learning capabilities of VGG16, acts as a sophisticated car segmentor. The model is trained to precisely delineate the boundaries of cars within images, offering a robust solution for tasks such as object detection and image understanding in the automotive domain.
+**Dataset**
 
-**Key Features:**
+The Carvana dataset is characterized by its specificity, presenting a unique challenge for models due to its focused nature. Each car in the dataset is meticulously represented with a substantial collection of 16 images, each captured from distinct angles. The controlled studio environment ensures a consistent background across all these images.
+[For more informations.](https://www.kaggle.com/c/carvana-image-masking-challenge/data)
 
-- **Transfer Learning with VGG16:** Integration of the VGG16 pre-trained model as the encoder in the UNet architecture to leverage high-level feature representations.
+**Challenge**
 
-- **Improved Generalization:** The project addresses the challenge of model generalization by using transfer learning, enabling the model to adapt effectively to a specific dataset.
+The project's core challenge revolves around assessing the model's ability to generalize effectively, especially when confronted with diverse real-world scenarios that may differ significantly from the specific conditions present in the Carvana test dataset. 
 
-- **Accurate Car Segmentation:** The model is designed to precisely segment cars within images, contributing to applications like autonomous driving, traffic analysis, and more.
-
-- **Challenges Overcome:** The project navigates the intricacies of a dataset with specific characteristics, demonstrating the model's ability to handle challenges unique to the automotive domain.
+# User Interface
+ To evaluate and validate our artificial model, we created an user interface using the Python library Streamlit, designed for local development and prototyping of the project.
